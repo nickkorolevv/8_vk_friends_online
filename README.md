@@ -1,17 +1,38 @@
-# Watcher of Friends Online
 
-[TODO. There will be project description]
+# Кто онлайн ВК
+Данный скрипт проверяет, кто из ваших друзей в данный момент находится онлайн на сайте vk.com
 
-# How to Install
-
-Python 3 should be already installed. Then use pip (or pip3 if there is a conflict with old Python 2 setup) to install dependencies:
+# Как установить
+Для работы скрипта Вам потребуется библиотека requests
+Чтобы ее установить введите следующую команду в командной строке.
+Для работы Вам потребуется токен, который вы должны получить на сайте vk.com/dev. 
 
 ```bash
 pip install -r requirements.txt # alternatively try pip3
 ```
+Рекомендуется использовать виртуальное окружение
+# Вывод скрипта
+``` bash 
+Алёна Поздеева
+Айдар Усманов
+Аня Шапаренко
+Ruslan Tukhvatullin
+Федя Ермаков
+Андрей Zorin
+Олег Курсаков
+Максим Кислицин
+Ксения Данилова
+Сережа Черен
+Даша Королева
+Сережа Иванов
+Рома Кондратьев
+Илья Хрусталев
+Артём Раев
+Евгений Королев
+Mido Sabra
+```
 
-Remember, it is recommended to use [virtualenv/venv](https://devman.org/encyclopedia/pip/pip_virtualenv/) for better isolation.
 
-# Project Goals
+# Цели проекта
+Код создан в учебных целях. В рамках учебного курса по веб-разработке -  [DEVMAN.org](https://devman.org/)
 
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
