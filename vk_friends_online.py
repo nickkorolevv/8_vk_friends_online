@@ -26,7 +26,6 @@ def print_friends_name(friends_id, token):
             "https://api.vk.com/method/users.get",
             params=parameters
         )
-        time.sleep(2)
         print(
             friends_name.json()["response"][0]["first_name"],
             friends_name.json()["response"][0]["last_name"]
