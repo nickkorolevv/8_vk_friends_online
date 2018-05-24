@@ -5,7 +5,7 @@ import getpass
 APP_ID = "6466857"
 
 
-def start_session(login, password):
+def start_session(login, password, version):
     session = vk.AuthSession(
         app_id=APP_ID,
         user_login=login,
@@ -46,7 +46,7 @@ if __name__ == "__main__":
     login = get_user_login()
     password = get_user_password()
     version = 5.75
-    vk_api = start_session(login, password)
+    vk_api = start_session(login, password, version)
     friends_id = get_online_friends_id()
     friends_online = get_online_friends(friends_id)
     output_friends_to_console(friends_online, "Сейчас онлайн:")
